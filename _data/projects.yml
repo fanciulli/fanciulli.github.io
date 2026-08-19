@@ -1,0 +1,22 @@
+- name: Music Server
+  date: JAN 2026 — ONGOING
+  description: >-
+    A highly pluggable music streaming platform with REST APIs. Docker-based
+    deployment, cross-platform desktop packaging with Tauri, and automated
+    multi-repo release pipelines built on conventional commits and semantic
+    versioning.
+  stack: [TypeScript, Node.js, Docker, Tauri, GitHub Actions]
+  link: https://github.com/fanciulli/musicserver
+  link_label: github.com/fanciulli/musicserver
+
+- name: Volumio
+  date: FEB 2016 — NOV 2020
+  description: >-
+    Designed and implemented core backend components of the Volumio
+    audiophile music player, including the plugin architecture and
+    playback/configuration APIs. Built integrations with high-resolution
+    streaming services Tidal and Qobuz, used across Volumio's global base of
+    750K installations.
+  stack: [Node.js, REST, Raspberry Pi]
+  link: ""
+  link_label: ""

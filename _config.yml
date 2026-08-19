@@ -1,0 +1,31 @@
+title: "Massimiliano Fanciulli — Cloud & Backend Engineer"
+description: >-
+  Cloud and Backend Engineer with 20+ years of experience designing and
+  delivering server-side architectures, from consumer platforms to
+  mission-critical space systems.
+author: "Massimiliano Fanciulli"
+email: fanciulli@gmail.com
+phone: "+39 347 5330310"
+linkedin: "linkedin.com/in/fanciullim"
+linkedin_url: "https://linkedin.com/in/fanciullim"
+github: "github.com/fanciulli"
+github_url: "https://github.com/fanciulli"
+location: "Livorno, Tuscany, Italy"
+
+# User site (repo named <username>.github.io) → baseurl must stay empty.
+url: "https://fanciulli.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
