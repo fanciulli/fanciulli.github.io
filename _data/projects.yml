@@ -2,9 +2,9 @@
   date: JAN 2026 — ONGOING
   description: >-
     A highly pluggable music streaming platform with REST APIs. Docker-based
-    deployment, cross-platform desktop packaging with Tauri, and automated
-    multi-repo release pipelines built on conventional commits and semantic
-    versioning.
+    deployment, cross-platform desktop packaging with Tauri, and a coordinated
+    release pipeline across 4 repositories built on conventional commits,
+    semantic versioning and GitHub Actions.
   stack: [TypeScript, Node.js, Docker, Tauri, GitHub Actions]
   link: https://github.com/fanciulli/musicserver
   link_label: github.com/fanciulli/musicserver

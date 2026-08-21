@@ -1,28 +1,51 @@
+- group: Leadership & Delivery
+  items:
+    - name: Distributed teams (up to 10)
+      level: 85
+    - name: Delivery under regulatory constraints
+      level: 82
+    - name: Vendor & stakeholder management
+      level: 80
+
 - group: Languages & Frameworks
   items:
     - name: Node.js
       level: 92
+    - name: TypeScript
+      level: 85
     - name: Java
       level: 88
     - name: Scala
       level: 70
+    - name: Python
+      level: 72
 
-- group: Cloud & DevOps
+- group: Cloud & Infrastructure
   items:
     - name: Docker
       level: 90
     - name: Kubernetes
       level: 78
-    - name: AWS
-      level: 75
-    - name: Jenkins
+    - name: Helm
       level: 72
+    - name: AWS Fargate
+      level: 75
+    - name: Terraform
+      level: 68
+    - name: Packer
+      level: 62
     - name: OpenStack
       level: 55
 
-- group: Leadership
+- group: CI/CD & Data
   items:
-    - name: Distributed teams
-      level: 85
-    - name: Build & release security
-      level: 80
+    - name: Jenkins
+      level: 78
+    - name: GitHub Actions
+      level: 82
+    - name: MongoDB
+      level: 74
+    - name: Elasticsearch
+      level: 66
+    - name: Oracle DB
+      level: 70

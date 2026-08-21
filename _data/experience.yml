@@ -5,15 +5,15 @@
   bullets:
     - Design and develop solutions for Industrial Wireless devices inside the Catalyst Center application.
     - Design and develop Scala microservices for the Cisco IoT Operations Dashboard (IoTOD) platform, deployed on Kubernetes.
-    - Own and enhance build environment security in alignment with corporate security standards.
-  stack: [Scala, Java, Kubernetes, Helm, Docker, Packer, Terraform]
+    - Led an initiative to align the build environment with Cisco security standards, achieving formal internal acceptance.
+  stack: [Scala, Java, Kubernetes, Helm, Docker, Packer, Terraform, MongoDB]
 
 - company: Domotz
   title: Senior Software Engineer
   date: MAY 2021 — DEC 2022
   current: false
   bullets:
-    - Led development of the AWS cloud infrastructure powering Glasswire, supporting 30K active users.
+    - Led development of the AWS cloud infrastructure powering Glasswire, a Windows firewall enriched with cloud-computed statistics, supporting 30K active users.
     - Managed a geographically distributed engineering team of 10, orchestrating technical and personnel complexities.
   stack: [Docker, Node.js, Python, AWS Fargate, Elasticsearch]
 
@@ -23,8 +23,8 @@
   current: false
   bullets:
     - Contributed to the firmware development of IoT-connected water pump devices, enabling real-time monitoring through the cloud infrastructure.
-    - Worked directly with the external vendor responsible for the cloud platform and iOS/Android companion app, ensuring alignment with product and technical requirements.
-  stack: [Node.js, C++]
+    - Coordinated with external vendors responsible for the cloud platform and iOS/Android companion app, ensuring alignment with product and technical requirements.
+  stack: [Node.js, Python, Yocto]
 
 - company: Intecs
   title: Team Leader
@@ -32,7 +32,9 @@
   current: false
   bullets:
     - Led the COSMO-SkyMed Second Generation team of 6 members, coordinating development and deliveries against strict technical requirements and schedules assigned by contractor Telespazio.
-  stack: [Java, Oracle DB, Jenkins]
+    - Coordinated the development of 5 services within the COSMO-SkyMed Second Generation program, consistently meeting technical requirements and delivery schedules.
+    - Actively participated in the commissioning of the system at the Matera civil site and the Pratica di Mare military site.
+  stack: [Java, Oracle DB, Jenkins, XML, XSD, XSLT]
 
 - company: Intecs
   title: Software Analyst

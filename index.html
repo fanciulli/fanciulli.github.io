@@ -7,21 +7,12 @@ title: "Massimiliano Fanciulli — Cloud & Backend Engineer"
   <div class="wrap hero-grid">
     <div>
       <div class="eyebrow">{{ site.location }}</div>
-      <h1>Massimiliano<br>Fanciulli</h1>
-      <p class="role">Cloud &amp; Backend Engineer — <em>from orbit to audio</em></p>
-      <p class="lede">Twenty years designing server-side systems: mission-critical software for space programs, IoT platforms at consumer scale, and an open-source music streaming stack built in the hours around it.</p>
-
-      <div class="stat-row">
-        <div class="stat"><span class="num">20+</span><span class="lbl">Years in production</span></div>
-        <div class="stat"><span class="num">750K</span><span class="lbl">Volumio installs shipped</span></div>
-        <div class="stat"><span class="num">30K</span><span class="lbl">Users on Glasswire cloud</span></div>
-        <div class="stat"><span class="num">5</span><span class="lbl">Teams led</span></div>
-      </div>
+      <h1>Massimiliano Fanciulli</h1>
+      <p class="lede"><strong>Engineering leader and cloud/backend specialist with 20+ years of experience</strong> designing and delivering server-side systems — from consumer platforms serving 30,000 users to mission-critical software for space programs. Experience <strong>leading distributed engineering teams of up to 10</strong> through complex technical and organizational challenges, paired with deep hands-on expertise in <strong>Node.js, Scala, Java, Kubernetes</strong> and cloud infrastructure. Past open-source contributor to the <strong>Volumio</strong> audiophile platform, with features still used by 750K+ users worldwide.</p>
 
       <div class="hero-cta">
-        <a class="btn btn-primary" href="mailto:{{ site.email }}">Email me</a>
+        <a class="btn btn-primary" href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn ↗</a>
         <a class="btn btn-ghost" href="{{ site.github_url }}" target="_blank" rel="noopener">GitHub ↗</a>
-        <a class="btn btn-ghost" href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn ↗</a>
       </div>
     </div>
 
@@ -38,18 +29,10 @@ title: "Massimiliano Fanciulli — Cloud & Backend Engineer"
   </div>
 </section>
 
-<section id="summary">
-  <div class="wrap summary reveal">
-    <div class="eyebrow">Profile</div>
-    <p><strong>Cloud and Backend Engineer with 20+ years of experience</strong> designing and delivering server-side architectures, from consumer platforms serving thousands of active users to mission-critical systems for space environments. Core expertise in <strong>Node.js, Scala and Java</strong>, backed by a track record in team leadership, cloud infrastructure and build/release security. Active open-source contributor to the <strong>Volumio</strong> audiophile music platform, building integrations for high-resolution streaming services such as Tidal and Qobuz.</p>
-  </div>
-</section>
-
 <section id="experience">
   <div class="wrap">
     <div class="section-head reveal">
       <h2 class="section-title">Experience</h2>
-      <div class="section-note">Five roles, one thread: real-time systems that can't afford to fail quietly.</div>
     </div>
 
     <div class="timeline">
@@ -77,7 +60,6 @@ title: "Massimiliano Fanciulli — Cloud & Backend Engineer"
   <div class="wrap">
     <div class="section-head reveal">
       <h2 class="section-title">Core skills</h2>
-      <div class="section-note">A control panel, not a keyword list — sized by years of hands-on use.</div>
     </div>
 
     <div class="panel-grid reveal">
@@ -131,12 +113,6 @@ title: "Massimiliano Fanciulli — Cloud & Backend Engineer"
         <div class="name">{{ edu.name }}</div>
         <div class="sub">{{ edu.sub }}</div>
       </div>
-      {% endfor %}
-    </div>
-    <div>
-      <h3>Certifications</h3>
-      {% for cert in site.data.certifications %}
-      <div class="cert-item"><span class="code">{{ cert.code }}</span>{{ cert.name }}</div>
       {% endfor %}
     </div>
     <div>
