@@ -1,0 +1,125 @@
+---
+layout: default
+title: "Massimiliano Fanciulli — Cloud & Backend Engineer"
+---
+
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">{{ site.location }}</div>
+      <h1>Massimiliano Fanciulli</h1>
+      <p class="lede"><strong>Engineering leader and cloud/backend specialist with 20+ years of experience</strong> designing and delivering server-side systems — from consumer platforms serving 30,000 users to mission-critical software for space programs. Experience <strong>leading distributed engineering teams of up to 10</strong> through complex technical and organizational challenges, paired with deep hands-on expertise in <strong>Node.js, Scala, Java, Kubernetes</strong> and cloud infrastructure. Past open-source contributor to the <strong>Volumio</strong> audiophile platform, with features still used by 750K+ users worldwide.</p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="btn btn-ghost" href="{{ site.github_url }}" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 340 340">
+        <circle class="orbit-ring" cx="170" cy="170" r="130"/>
+        <circle class="orbit-ring" cx="170" cy="170" r="90"/>
+        <g class="orbit-spin">
+          <circle class="orbit-dot" cx="170" cy="40" r="4"/>
+        </g>
+        <path class="trace-line" d="M20,200 C60,180 70,120 100,120 C130,120 120,190 150,190 C180,190 165,80 200,80 C230,80 215,220 250,220 C280,220 270,150 320,150"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2 class="section-title">Experience</h2>
+    </div>
+
+    <div class="timeline">
+      {% for job in site.data.experience %}
+      <div class="job{% if job.current %} is-current{% endif %} reveal">
+        <div class="job-head">
+          <div class="job-title">{{ job.title }} — <span>{{ job.company }}</span></div>
+          <div class="job-date">{{ job.date }}</div>
+        </div>
+        <ul>
+          {% for bullet in job.bullets %}
+          <li>{{ bullet }}</li>
+          {% endfor %}
+        </ul>
+        <div class="stack">
+          {% for tech in job.stack %}<span class="chip">{{ tech }}</span>{% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2 class="section-title">Core skills</h2>
+    </div>
+
+    <div class="panel-grid reveal">
+      {% for group in site.data.skills %}
+      <div class="panel">
+        <div class="panel-label"><span>{{ group.group }}</span><span class="idx">0{{ forloop.index }}</span></div>
+        <ul class="skill-list">
+          {% for item in group.items %}
+          <li>{{ item.name }} <span class="bar" style="--fill:{{ item.level }}%"><span></span></span></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2 class="section-title">Personal projects &amp; open source</h2>
+      <div class="section-note">What gets built when nobody's asking for a ticket.</div>
+    </div>
+
+    <div class="proj-grid reveal">
+      {% for project in site.data.projects %}
+      <div class="proj-card">
+        <div class="proj-top">
+          <div class="proj-name">{{ project.name }}</div>
+          <div class="proj-date">{{ project.date }}</div>
+        </div>
+        <p class="proj-desc">{{ project.description }}</p>
+        <div class="stack">
+          {% for tech in project.stack %}<span class="chip">{{ tech }}</span>{% endfor %}
+        </div>
+        {% if project.link and project.link != "" %}
+        <a class="proj-link" href="{{ project.link }}" target="_blank" rel="noopener">{{ project.link_label }}</a>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap trio reveal">
+    <div>
+      <h3>Education</h3>
+      {% for edu in site.data.education %}
+      <div class="edu-item">
+        <div class="name">{{ edu.name }}</div>
+        <div class="sub">{{ edu.sub }}</div>
+      </div>
+      {% endfor %}
+    </div>
+    <div>
+      <h3>Languages</h3>
+      {% for lang in site.data.languages %}
+      <div class="lang-item"><span>{{ lang.name }}</span><span class="lvl">{{ lang.level }}</span></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
